@@ -1,0 +1,31 @@
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Dependencies
+/node_modules/
+/backend/node_modules/
+/frontend/node_modules/
+
+# macOS
+.DS_Store
+
+# React Router
+/.react-router/
+
+# Build output
+/build/
+/dist/
+/backend/build/
+/frontend/build/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# Editor
+.vscode/
+
